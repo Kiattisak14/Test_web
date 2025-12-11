@@ -8,7 +8,7 @@ st.write('ยินดีต้อนรับสู่ระบบทดสอ�
 
 # 2. Interactive Button
 if st.button('ตรวจสอบสถานะ Server'):
-    st.success('✅ Server is Online and Ready!')
+    st.success('✅ Server is Online and Ready!xxx')
 
 # 3. Simple Chart (ลองสร้างกราฟจำลอง)
 st.subheader('ตัวอย่างกราฟ Battery Health')
@@ -20,4 +20,5 @@ st.line_chart(chart_data)
 
 # 4. Input Box
 user_input = st.text_input("ลองพิมพ์อะไรสักอย่าง:", "เช่น ทดสอบระบบ")
+
 st.write(f"คุณพิมพ์ว่า: {user_input}")
